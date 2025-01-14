@@ -1,0 +1,20 @@
+[project]
+name = "wordnexus"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "I Joo Han",email = "juhanlee2218@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4"
+dependencies = [
+    "django (==4.2.17)",
+    "djangorestframework (>=3.15.2,<4.0.0)",
+    "django-environ (>=0.11.2,<0.12.0)",
+    "mysqlclient (>=2.2.7,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
